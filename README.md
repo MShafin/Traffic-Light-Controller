@@ -1,8 +1,3 @@
-# 
-Intel FGPA design project that models a real 4-way traffic signal with pedestrian lights and left turn priority signal
-
-# 
-
 <br />
 <p align="center">
   <a ![RoundedIcon](RoundedIcon.png)> <img src="output_files/traffic light.png" alt="RoundedIcon" width="90" height="90"> </a>
