@@ -1,0 +1,74 @@
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
++----------------------------------------------------------------------------+
+; Quartus Prime QXP Design File                                              ;
++------------------+---------------------------------------------------------+
+; Field            ; Value                                                   ;
++------------------+---------------------------------------------------------+
+; Entity           ; Traffic_Exam_Testbench                                  ;
+; Case Sensitive   ;                                                         ;
+; QXP Source       ; Traffic_Exam_Testbench.qxp                              ;
+; Software Version ; Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
+; Date             ; Mon Nov 21 10:50:01 2022                                ;
+; Contents         ; Netlist Only                                            ;
+; Family           ; EP4CE115F29C7                                           ;
+; Device           ; CYCLONEIVE6F780C7                                       ;
++------------------+---------------------------------------------------------+
+
++-----------------------------------------------+
+; Boundary Ports                                ;
++----------------------+--------+---------------+
+; Port Name            ; Type   ; Default Value ;
++----------------------+--------+---------------+
+; clk                  ; input  ; 0             ;
+; CLOCK_50             ; input  ; 0             ;
+; northbound_Hex [6:0] ; input  ; 0000000       ;
+; north_walk_Hex [6:0] ; input  ; 0000000       ;
+; southbound_Hex [6:0] ; input  ; 0000000       ;
+; south_walk_Hex [6:0] ; input  ; 0000000       ;
+; eastbound_Hex [6:0]  ; input  ; 0000000       ;
+; east_walk_Hex [6:0]  ; input  ; 0000000       ;
+; westbound_Hex [6:0]  ; input  ; 0000000       ;
+; west_walk_Hex [6:0]  ; input  ; 0000000       ;
+; disable_test         ; input  ; 0             ;
+; gold_module_toggel   ; input  ; 0             ;
+; walk_NS_request_in   ; input  ; 0             ;
+; walk_EW_request_in   ; input  ; 0             ;
+; left_turn_input      ; input  ; 0             ;
+; reset_in             ; input  ; 0             ;
+; reset                ; output ; 0             ;
+; debug                ; output ; 0             ;
+; left_turn_request    ; output ; 0             ;
+; walk_NS_request      ; output ; 0             ;
+; walk_EW_request      ; output ; 0             ;
+; clock_to_your_module ; output ; 0             ;
+; nb_h [6:0]           ; output ; 0000000       ;
+; nb_w [6:0]           ; output ; 0000000       ;
+; sb_h [6:0]           ; output ; 0000000       ;
+; sb_w [6:0]           ; output ; 0000000       ;
+; eb_h [6:0]           ; output ; 0000000       ;
+; eb_w [6:0]           ; output ; 0000000       ;
+; wb_h [6:0]           ; output ; 0000000       ;
+; wb_w [6:0]           ; output ; 0000000       ;
+; clk_out              ; output ; 0             ;
+; test_error           ; output ; 0             ;
+; LCD_BLON             ; output ; 0             ;
+; LCD_DATA [7:0]       ; bidir  ; 00000000      ;
+; LCD_EN               ; output ; 0             ;
+; LCD_ON               ; output ; 0             ;
+; LCD_RS               ; output ; 0             ;
+; LCD_RW               ; output ; 0             ;
++----------------------+--------+---------------+
